@@ -12,4 +12,6 @@ public class Envios extends AggregateEvent<EnvioId> {
     public Envios(EnvioId envioId) {
         super(envioId);
     }
+
+
 }
