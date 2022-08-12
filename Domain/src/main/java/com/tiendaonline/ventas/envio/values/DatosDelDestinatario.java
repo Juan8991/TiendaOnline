@@ -1,10 +1,12 @@
 package com.tiendaonline.ventas.envio.values;
 
+import co.com.sofka.domain.generic.ValueObject;
+
 public class DatosDelDestinatario implements ValueObject<DatosDelDestinatario.Props> {
 
-private final String nombre;
+    private final String nombre;
 
-private final String telefono;
+    private final String telefono;
 
 
     public DatosDelDestinatario(String nombre, String telefono) {
@@ -12,10 +14,22 @@ private final String telefono;
         this.telefono = telefono;
     }
 
-    @Override
 
-    public Props value(){
-        @Override
-                public String
+    @Override
+    public Props value() {
+        return new Props() {
+            @Override
+            public String obtenerNombre() {
+                return nombre;
+            }
+            @Override
+            public String obtenerTelefono() {
+                return telefono;
+            }
+        };
+    }
+    public interface Props {
+        String obtenerNombre();
+        String obtenerTelefono();
     }
 }

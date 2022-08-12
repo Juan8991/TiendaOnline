@@ -1,4 +1,6 @@
 package com.tiendaonline.ventas.envio.commands;
 
-public class CalcularTiempoDeEntrega {
+import co.com.sofka.domain.generic.Command;
+
+public class CalcularTiempoDeEntrega extends Command {
 }

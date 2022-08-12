@@ -1,4 +1,6 @@
 package com.tiendaonline.ventas.envio.commands;
 
-public class CalcularValorEnvio {
+import co.com.sofka.domain.generic.Command;
+
+public class CalcularValorEnvio extends Command {
 }

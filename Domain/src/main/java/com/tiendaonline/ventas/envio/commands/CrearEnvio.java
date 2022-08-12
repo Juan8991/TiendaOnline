@@ -1,4 +1,6 @@
 package com.tiendaonline.ventas.envio.commands;
 
-public class CrearEnvio {
+import co.com.sofka.domain.generic.Command;
+
+public class CrearEnvio extends Command {
 }
