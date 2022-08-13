@@ -1,19 +1,3 @@
 
-}
-MDomain/src/main/java/com/tiendaonline/ventas/envio/values/PrecioDelEnvio.java,4\f\4fdb057c2efa17d93ab024493ce73f12661f1f2e
-Ö
-UDomain/src/main/java/com/tiendaonline/ventas/envio/values/InformacionDeLaEmpresa.java,a\5\a5ca87e5dcca5caca9ff8d5038c6b89c2e2b342d
-
-ODomain/src/main/java/com/tiendaonline/ventas/envio/values/DireccionDeEnvio.java,3\9\39af8aa4edc71ad2ad69f45d11ede4aef0d9ec94
-n
->Domain/src/main/java/com/tiendaonline/ventas/envio/Envios.java,9\9\9905dc0eeebcf3c2268f3c2ff5f0ab0a0fc03787
 @
 TiendaOnline.iml,f\7\f749d58c4dddb0f8213340737a3ab4f6c8a57cbe
-Å
-QDomain/src/main/java/com/tiendaonline/ventas/envio/values/EnviosNacionalesId.java,9\8\98ea9d6ba5d11b7ef40d701f036a374c85b781e4
-v
-FDomain/src/main/java/com/tiendaonline/ventas/envio/values/EnvioId.java,5\d\5d41571fe83d18528e9c3ce1ddda0b59411c767a
-}
-MDomain/src/main/java/com/tiendaonline/ventas/envio/values/DistribuidorId.java,9\1\917cb5182bcd6f8570f141c45c6c1e2618d9d6d1
-z
-JDomain/src/main/java/com/tiendaonline/ventas/envio/events/EnvioCreado.java,e\1\e18b64c23a754819a83d2d96239462c8c982c899

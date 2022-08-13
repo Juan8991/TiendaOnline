@@ -3,22 +3,23 @@ package com.tiendaonline.ventas.envio.events;
 import co.com.sofka.domain.generic.DomainEvent;
 import com.tiendaonline.ventas.envio.values.DireccionDeEnvio;
 import com.tiendaonline.ventas.envio.values.DistribuidorId;
+import com.tiendaonline.ventas.envio.values.TiempoDeEntrega;
 
-public class TiempoDeEntregaCalculado extends DomainEvent {
+public class TiempoDeEntregaObtenido extends DomainEvent {
     private final DistribuidorId distribuidorId;
-    private final DireccionDeEnvio direccionDeEnvio;
+    private final TiempoDeEntrega tiempoDeEntrega;
 
-    public TiempoDeEntregaCalculado(DistribuidorId distribuidorId, DireccionDeEnvio direccionDeEnvio) {
+    public TiempoDeEntregaObtenido(DistribuidorId distribuidorId, TiempoDeEntrega tiempoDeEntrega) {
         super("com.tiendaonline.ventas.TiempoDeEntregaCalculado");
         this.distribuidorId = distribuidorId;
-        this.direccionDeEnvio = direccionDeEnvio;
+        this.tiempoDeEntrega = tiempoDeEntrega;
     }
 
     public DistribuidorId getDistribuidorId() {
         return distribuidorId;
     }
 
-    public DireccionDeEnvio getDireccionDeEnvio() {
-        return direccionDeEnvio;
+    public TiempoDeEntrega getTiempoDeEntrega() {
+        return tiempoDeEntrega;
     }
 }
