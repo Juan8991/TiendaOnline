@@ -33,7 +33,7 @@ public class Envios extends AggregateEvent<EnvioId> {
         Objects.requireNonNull(tiempoDeEntrega);
         appendChange(new TiempoDeEntregaObtenido(distribuidorId, tiempoDeEntrega) );
     }
-    public void ObtenerValorEnvioDe(EnviosNacionalesId enviosNacionalesId, PrecioDelEnvio precioDelEnvio){
+    public void ObtenerValorEnvio(EnviosNacionalesId enviosNacionalesId, PrecioDelEnvio precioDelEnvio){
         Objects.requireNonNull(enviosNacionalesId);
         Objects.requireNonNull(precioDelEnvio);
         appendChange(new ValorDeEnvioObtenido(enviosNacionalesId, precioDelEnvio) );

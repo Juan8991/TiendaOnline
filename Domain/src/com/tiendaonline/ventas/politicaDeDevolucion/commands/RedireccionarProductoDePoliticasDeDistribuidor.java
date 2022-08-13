@@ -1,18 +1,17 @@
-package com.tiendaonline.ventas.politicaDeDevolucion.events;
+package com.tiendaonline.ventas.politicaDeDevolucion.commands;
 
-import co.com.sofka.domain.generic.DomainEvent;
+import co.com.sofka.domain.generic.Command;
 import com.tiendaonline.ventas.politicaDeDevolucion.values.DireccionDeEntrega;
 import com.tiendaonline.ventas.politicaDeDevolucion.values.DireccionDeRecolecta;
 import com.tiendaonline.ventas.politicaDeDevolucion.values.PoliticasDeDistribuidorId;
 
-public class ProductoRedireccionado extends DomainEvent {
+public class RedireccionarProductoDePoliticasDeDistribuidor extends Command {
     private final PoliticasDeDistribuidorId politicasDeDistribuidorId;
     private final DireccionDeEntrega direccionDeEntrega;
     private final DireccionDeRecolecta direccionDeRecolecta;
 
 
-    public ProductoRedireccionado(PoliticasDeDistribuidorId politicasDeDistribuidorId, DireccionDeEntrega direccionDeEntrega, DireccionDeRecolecta direccionDeRecolecta) {
-        super("com.tiendaonline.ventas.ProductoRedireccionado");
+    public RedireccionarProductoDePoliticasDeDistribuidor(PoliticasDeDistribuidorId politicasDeDistribuidorId, DireccionDeEntrega direccionDeEntrega, DireccionDeRecolecta direccionDeRecolecta) {
         this.politicasDeDistribuidorId = politicasDeDistribuidorId;
         this.direccionDeEntrega = direccionDeEntrega;
         this.direccionDeRecolecta = direccionDeRecolecta;

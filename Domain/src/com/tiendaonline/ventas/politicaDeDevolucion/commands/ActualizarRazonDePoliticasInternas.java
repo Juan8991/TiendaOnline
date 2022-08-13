@@ -1,15 +1,14 @@
-package com.tiendaonline.ventas.politicaDeDevolucion.events;
+package com.tiendaonline.ventas.politicaDeDevolucion.commands;
 
-import co.com.sofka.domain.generic.DomainEvent;
+import co.com.sofka.domain.generic.Command;
 import com.tiendaonline.ventas.politicaDeDevolucion.values.PoliticasInternasId;
 import com.tiendaonline.ventas.politicaDeDevolucion.values.Razon;
 
-public class RazonDeDevolucionActualizada extends DomainEvent {
+public class ActualizarRazonDePoliticasInternas extends Command {
     private final PoliticasInternasId politicasInternasId;
     private final Razon razon;
 
-    public RazonDeDevolucionActualizada(PoliticasInternasId politicasInternasId, Razon razon) {
-        super("com.tiendaonline.ventas.RazonDeDevolucionActualizada");
+    public ActualizarRazonDePoliticasInternas(PoliticasInternasId politicasInternasId, Razon razon) {
         this.politicasInternasId = politicasInternasId;
         this.razon = razon;
     }

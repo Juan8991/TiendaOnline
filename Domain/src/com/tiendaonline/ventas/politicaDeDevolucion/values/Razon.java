@@ -6,11 +6,9 @@ public class Razon implements ValueObject<String> {
 
     private final String razon;
 
-
     public Razon(String razon) {
         this.razon = razon;
     }
-
     @Override
     public String value() {
         return razon;

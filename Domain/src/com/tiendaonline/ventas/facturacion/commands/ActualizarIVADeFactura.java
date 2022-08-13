@@ -1,4 +1,4 @@
 package com.tiendaonline.ventas.facturacion.commands;
 
-public class GenerarFactura {
+public class ActualizarIVADeFactura {
 }

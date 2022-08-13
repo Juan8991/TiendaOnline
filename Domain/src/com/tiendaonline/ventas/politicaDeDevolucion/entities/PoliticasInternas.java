@@ -17,9 +17,7 @@ public class PoliticasInternas extends Entity<PoliticasInternasId> {
 
 
     public void ActualizarRazonDeDevolucion(Razon razon) {
-
         this.razon = Objects.requireNonNull(razon);
-
     }
 
 }
