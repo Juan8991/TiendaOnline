@@ -1,6 +1,8 @@
 package com.tiendaonline.ventas.envio.commands;
 
 import co.com.sofka.domain.generic.Command;
+import com.tiendaonline.ventas.envio.values.DireccionDeEnvio;
+import com.tiendaonline.ventas.envio.values.DistribuidorId;
 
 public class CalcularTiempoDeEntrega extends Command {
 

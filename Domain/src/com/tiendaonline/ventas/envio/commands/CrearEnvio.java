@@ -1,6 +1,8 @@
 package com.tiendaonline.ventas.envio.commands;
 
 import co.com.sofka.domain.generic.Command;
+import com.tiendaonline.ventas.envio.values.DatosDelDestinatario;
+import com.tiendaonline.ventas.envio.values.EnvioId;
 
 public class CrearEnvio extends Command {
 

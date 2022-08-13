@@ -1,5 +1,9 @@
 package com.tiendaonline.ventas.envio.events;
 
+import co.com.sofka.domain.generic.DomainEvent;
+import com.tiendaonline.ventas.envio.values.DatosDelDestinatario;
+import com.tiendaonline.ventas.envio.values.EnvioId;
+
 public class EnvioCreado extends DomainEvent {
 
     private final EnvioId envioId;
