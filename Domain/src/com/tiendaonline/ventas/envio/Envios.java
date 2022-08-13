@@ -20,8 +20,13 @@ public class Envios extends AggregateEvent<EnvioId> {
     protected Distribuidor distribuidor;
     protected EnviosNacionales enviosNacionales;
 
-    public Envios(EnvioId envioId) {
+
+    public Envios(EnvioId envioId, Distribuidor distribuidor, EnviosNacionales enviosNacionales) {
         super(envioId);
+        this.enviosNacionales = enviosNacionales;
+        this.distribuidor = distribuidor;
+
+
     }
     public void CalcularTiempoDeEntrega(DistribuidorId distribuidorId, TiempoDeEntrega tiempoDeEntrega){
         Objects.requireNonNull(distribuidorId);
